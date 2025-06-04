@@ -7,25 +7,25 @@
 </head>
 <body>
   <div class="container">
-    <h1>Image Resizer</h1>
+    <h1>ImgRszr</h1>
+
+    <!-- Upload Form -->
     <form id="uploadForm">
       <input type="file" id="fileInput" name="image" accept="image/*" required />
       <input type="number" id="widthInput" name="width" placeholder="Width (px)" required />
       <input type="number" id="heightInput" name="height" placeholder="Height (px)" required />
       <button type="submit">Upload & Resize</button>
     </form>
+
+    <!-- Upload Result -->
+    <div id="result" class="result-section"></div>
     <div id="result"></div>
 
-    <h2>Gallery - Try Resizing These</h2>
+    <h2>Gallery - Click an image to resize</h2>
     <div class="carousel">
-      <div class="carousel-track">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRhTZLAttLzaM2nxi36MjChP_R7dw7Sv-jew&s" alt="Sample 1" />
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXyKzTl8cLNOZqWHsC6BqQYu9l7CYW36vO9g&s" alt="Sample 2" />
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh6WRgmzhI8VJuIkAnNIHWyFnrmJZUYbSH0Q&s" alt="Sample 3" />
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQnrzTXU-EixrpeZOlG9ukUG4MvtNbHbgWXw&s" alt="Sample 4" />
-      </div>
+      <div class="carousel-track"></div>
     </div>
-  </div>
+
 
   <script src="app.js"></script>
 </body>
