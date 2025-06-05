@@ -5,8 +5,9 @@
     "strict": true,
     "esModuleInterop": true,
     "moduleResolution": "node",
-    "outDir": "dist",
+    "outDir": "./dist",
+    "rootDir": "./src",
     "types": ["jasmine", "node"]
   },
-  "include": ["spec/**/*.ts", "src/**/*.ts"]
+  "include": ["src/**/*.ts"]
 }
