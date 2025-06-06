@@ -11,7 +11,7 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "prettier": "prettier --check .",
-    "test": "ts-node -r tsconfig-paths/register node_modules/jasmine/bin/jasmine.js"
+    "test": "jasmine"
   },
   "keywords": [],
   "author": "",
